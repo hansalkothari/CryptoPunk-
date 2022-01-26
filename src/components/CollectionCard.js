@@ -5,7 +5,7 @@ import './CollectionCard.css'
 export default function CollectionCard({id,name,traits,image}) {
   return (
   <div className='collectionCard'>
-      <img className={image}/>
+      <img src={image}/>
       <div className='details'>
         <div className='name'>
           {name}<div className='id'>#{id}</div>
